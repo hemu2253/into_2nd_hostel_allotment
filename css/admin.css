@@ -1,0 +1,92 @@
+/* Admin-Panel CSS */
+.adminleft {
+    margin-left: 1%;
+    padding: 10px;
+    float: left;
+    width: 25%;
+	height: 200px;
+	border: 2px solid rgba(0,0,0,0.8);
+}
+.admincenter{
+     margin-left: 1%;
+     padding : 10px;
+     float: left;
+     width: 40%;
+	 height: 200px;
+	 border: 2px solid rgba(0,0,0,0.8);
+}
+.adminright{
+     margin-left: 1%;
+     padding : 10px;
+     float: left;
+     width: 25%;
+	 height: 200px;
+	 border: 2px solid rgba(0,0,0,0.8);
+}
+#list {
+ /* Width and position */
+    width: 58%;
+    padding: 5px 5px;
+	float: left;
+	margin-bottom: 5px;
+  
+    /* Styles */
+    border: 3px solid #000000; /* Fallback */
+    border: 3px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.1);
+    cursor:pointer;
+}
+.stulist {
+ /* Width and position */
+    width: 40%;
+    padding: 8px 8px;
+	float: right;
+	margin-bottom: 5px;
+  
+/* Styles */
+    border: 3px solid #000000; /* Fallback */
+    border: 3px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.1);
+    cursor:pointer;
+}
+
+#random {
+ /* Width and position */
+    width: 80%;
+    padding: 4px 4px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 1px;
+	margin-top: 20%;
+  
+/* Styles */
+    border: 3px solid #000000; /* Fallback */
+    border: 3px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.1);
+    cursor:pointer;
+}
+
+.center-table 
+{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.center-table a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.center-table td
+{
+	width: 250px;
+	height: 50px;
+    cursor: pointer;
+    border: 3px solid rgba(0,0,0,0.8);
+}
+
+.center-table tr
+{
+	height: 30px;
+}

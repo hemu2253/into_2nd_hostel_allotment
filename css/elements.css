@@ -1,0 +1,165 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-2iz2xz');
+	src:url('../fonts/icomoon.eot?#iefix-2iz2xz') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-2iz2xz') format('truetype'),
+		url('../fonts/icomoon.svg?-2iz2xz#icomoon') format('svg'),
+		url('../fonts/icomoon.woff?-2iz2xz') format('woff');
+	font-weight: normal;
+	font-style: normal;
+} /* Icons created with icomoon.io/app */
+
+@font-face
+{
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSansRegular.woff2');
+}
+
+@font-face
+{
+	font-family: 'OpenSansBold';
+	src: url('../fonts/OpenSansBold.woff2');
+}
+
+@font-face
+{
+	font-family: 'OpenSansLight';
+	src: url('../fonts/OpenSansLight.woff2');
+}
+
+body
+{
+	font-family: 'OpenSansLight';
+	font-size: 18px;
+	color: #555555;
+}
+
+header
+{
+	/*position*/
+	position: fixed;
+	z-index: 5;
+	top: 0px;
+	left: 0px;
+	height: 11%;
+	width: 100%;
+	margin: 0px;
+	
+	/*styling*/
+	background: rgba(80,80,80,1);
+	box-shadow: -1px 1px 2px rgba(0,0,0,1);
+	
+	/*text-effects*/
+	font-family: 'OpenSans';
+	color: #ffffff;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+header a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h1
+{
+	font-size: 50px;
+	color: #555555;
+	padding-top: 25px;
+	margin: 0px;
+}
+
+h2
+{
+	font-family: 'OpenSans';
+	font-size: 35px;
+	color: #555555;
+	padding-bottom: 20px;
+	padding-top: 100px;
+	margin: 0px;
+}
+
+
+.icon-home:before {
+	content: "\e600";
+}
+
+.icon-quill:before {
+	content: "\e601";
+}
+
+.icon-dice:before {
+	content: "\e602";
+}
+
+.icon-bullhorn:before {
+	content: "\e603";
+}
+
+.icon-library:before {
+	content: "\e604";
+}
+
+.icon-coin:before {
+	content: "\e605";
+}
+
+.icon-calendar:before {
+	content: "\e60f";
+}
+
+.icon-user:before {
+	content: "\e606";
+}
+
+.icon-users:before {
+	content: "\e607";
+}
+
+.icon-user2:before {
+	content: "\e608";
+}
+
+.icon-spinner:before {
+	content: "\e609";
+}
+
+.icon-search:before {
+	content: "\e60a";
+}
+
+.icon-cogs:before {
+	content: "\e60b";
+}
+
+.icon-tree:before {
+	content: "\e60c";
+}
+
+.icon-earth:before {
+	content: "\e60d";
+}
+
+.icon-pencil2:before {
+	content: "\e906";
+}
+
+.icon-profile:before {
+	content: "\e923";
+}
+
+.icon-switch:before {
+	content: "\e9b6";
+}
+
+.icon-arrow-up:before {
+	content: "\ea32";
+}
+
+.icon-food:before {
+	content: "\e60e";
+}
